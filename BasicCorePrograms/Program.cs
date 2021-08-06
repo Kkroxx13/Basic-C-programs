@@ -16,12 +16,7 @@ namespace BasicCorePrograms
 
                 Console.WriteLine("Please select a program");
                 int input = Convert.ToInt32(Console.ReadLine());
-
-                
-
-
-
-
+                             
                     switch (input)
                     {
 
@@ -29,6 +24,7 @@ namespace BasicCorePrograms
                             Console.WriteLine("Enter Username");
                             string username = Console.ReadLine();
                             ReplaceString.Replace(username);
+                            ReplaceString.StringLength(username);
                             break;
 
                         case 2:
